@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>李江个人主页</title>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			*{margin: 0;padding: 0;font: "微软雅黑" 14px;font-weight: 300;}
+			ul{
+				list-style: none;
+			}
+			.nav{
+				width:100%;
+				height: 77px;
+				position: fixed;
+				background: #F5F5F5;
+				overflow: hidden;
+				
+			}
+			.logoes{
+				float: left;
+				margin-left: 15%;
+				line-height: 77px;
+				font-size: 40px;
+				font-weight: 300;
+			}
+			.nav ul{
+				float: right;
+				margin-right: 10%;
+				
+				width: 300px;
+				height: 77px;
+			}
+			.nav li{
+				float: left;
+				width: 100px;
+				height: 77px;
+				font-size: 20px;			
+				line-height: 77px;
+				text-align: center;
+			}
+			.nav li:hover{
+				background: indianred;
+			}
+			.main{
+				width: 100%;
+				background: lightgoldenrodyellow;
+			}
+			.nav_fills{
+				width: 100%;
+				height: 77px;
+			}
+			.banner{
+				width: 100%;
+				height: 30vw;
+				background: url(images/img12.jpg)no-repeat;
+				background-size: 100%;
+			}
+			.content{
+				width: 100%;	
+				overflow: hidden;
+			}
+			.content_page{
+				width: 80%;
+				margin: auto;
+			}
+			.content_page ul{
+				margin-top: 20px;
+				width: 100%;
+			}
+			.content_page li{
+				width: 100%;
+				height: 200px;
+				border: 1px solid sandybrown;
+				border-radius: 8px;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="nav">
+			<span class="logoes">李江个人主页</span>
+			<ul>
+				<li>主页</li>
+				<li>介绍</li>
+				<li>联系方式</li>
+			</ul>
+		</div>
+		<div class="main">
+			<!--导航栏填充-->
+			<div class="nav_fills"></div>
+			<!--轮播-->
+			<div class="banner"></div>
+			<!--主要内容-->
+			<div class="content">
+				<div class="content_page">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+	</body>
+</html>
